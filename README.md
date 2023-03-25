@@ -1,5 +1,7 @@
 # `enum` in Go
 
+Edit (2023/03/25): Maybe after [#57644](https://github.com/golang/go/issues/57644) be resolved, we could use Rust enum in Go directly.
+
 I provide a package to simulate Rust `enum` feature in Go.
 Also, you could see examples in the `example` folder.
 
@@ -168,4 +170,4 @@ AcceptNamedEmpty2(&implBothNamedEmpty12{}) // Case 12 (O)
 ```
 
 In this proposal, which we didn't discuss:
-1. `tilde`(~T) which I'm so sure would it be impacted? 
+1. `tilde`(~T) which I'm not so sure would it be impacted? 
